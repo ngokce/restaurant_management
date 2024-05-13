@@ -1,0 +1,52 @@
+-- MySQL dump 10.13  Distrib 8.0.34, for macos13 (arm64)
+--
+-- Host: localhost    Database: asce
+-- ------------------------------------------------------
+-- Server version	8.2.0
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `Musteriler`
+--
+
+DROP TABLE IF EXISTS `Musteriler`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `Musteriler` (
+  `MusteriID` int NOT NULL,
+  `MusteriAD` varchar(25) DEFAULT NULL,
+  `TelNO` varchar(7) DEFAULT NULL,
+  PRIMARY KEY (`MusteriID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Musteriler`
+--
+
+LOCK TABLES `Musteriler` WRITE;
+/*!40000 ALTER TABLE `Musteriler` DISABLE KEYS */;
+INSERT INTO `Musteriler` VALUES (123456789,'Ayşe Kaya','5552233'),(170421840,'Ahmet Yılmaz','5557122'),(170421841,'Emirhan Aydin','5554678'),(170421842,'Bengu Yanpar','5554278'),(555555555,'Zeynep Çelik','5554466'),(555555556,'Elif Korkmaz','5555588'),(555555557,'Murat Yıldız','5556671'),(555555558,'Esra Aydın','5557788'),(555555559,'Kaan Can','5558899'),(555555560,'Gizem Çelik','5559900'),(555555561,'Umut Aksoy','5550011'),(555555562,'Deniz Koç','5551122'),(555555563,'Selin Şahin','5552233'),(555555564,'Kerem Güneş','5553344'),(555555565,'Sude Atalay','5554466'),(555555566,'Ali Aydın','5555588'),(555555567,'Melis Yılmaz','5556677'),(555555568,'Ahmet Efe','5557788'),(555555569,'Yağmur Kaya','5558899'),(555555570,'Beril Aksoy','5559901'),(555555571,'Ege Çelik','5550011'),(987654321,'Mehmet Demir','5553344');
+/*!40000 ALTER TABLE `Musteriler` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-12-27 23:46:20
