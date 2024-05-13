@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="285.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vtys_arayuz.kullaniciGController">
+   <children>
+      <Button layoutX="32.0" layoutY="185.0" mnemonicParsing="false" text="Rezervayon Yap" />
+      <Label layoutX="79.0" layoutY="25.0" text="Menüler" />
+      <RadioButton fx:id="radiobutton1" layoutX="54.0" layoutY="50.0" mnemonicParsing="false" onAction="#menuGor" text="Yiyecek">
+         <toggleGroup>
+            <ToggleGroup fx:id="t" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="radiobutton2" layoutX="54.0" layoutY="80.0" mnemonicParsing="false" onAction="#menuGor" text="İçecek" toggleGroup="$t" />
+      <RadioButton fx:id="radiobutton3" layoutX="54.0" layoutY="108.0" mnemonicParsing="false" onAction="#menuGor" text="Tatlı" toggleGroup="$t" />
+      <Label fx:id="menuL" layoutX="188.0" layoutY="23.0" prefHeight="218.0" prefWidth="173.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="216.0" prefWidth="413.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vtys_arayuz.calisanGController">
+   <children>
+      <Button fx:id="giris" layoutX="263.0" layoutY="156.0" mnemonicParsing="false" onAction="#calisan" text="Giriş Yap" />
+      <TextField fx:id="id" layoutX="190.0" layoutY="60.0" />
+      <TextField fx:id="sifre" layoutX="190.0" layoutY="110.0" />
+      <Label layoutX="63.0" layoutY="65.0" text="ID" />
+      <Label layoutX="54.0" layoutY="115.0" text="Şifre" />
+      <Label layoutX="139.0" layoutY="21.0" text="Bilgilerinizi Giriniz" />
+      <Label fx:id="hata" layoutX="21.0" layoutY="161.0" prefHeight="39.0" prefWidth="179.0" />
+   </children>
+</AnchorPane>

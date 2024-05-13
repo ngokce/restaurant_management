@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vtys_arayuz.HelloController">
+   <children>
+      <Button fx:id="kullanici" layoutX="90.0" layoutY="175.0" mnemonicParsing="false" onAction="#kullaniciG" text="Musteri Girişi" />
+      <Button fx:id="calisan" layoutX="220.0" layoutY="175.0" mnemonicParsing="false" onAction="#calisanG" text="Çalışan Girişi" />
+      <Label layoutX="160.0" layoutY="70.0" text="HOŞGELDİNİZ" />
+   </children>
+</AnchorPane>
